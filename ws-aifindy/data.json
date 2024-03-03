@@ -1,0 +1,11 @@
+{
+  "name": "ChatGPT",
+  "description": "ChatGPT: Optimizando los Modelos de Lenguaje para el Di\u00e1logo. El formato de di\u00e1logo permite a ChatGPT responder preguntas de seguimiento, admitir sus errores, desafiar premisas incorrectas y rechazar solicitudes inapropiadas.",
+  "link": "https://chat.openai.com/chat",
+  "props": [
+    "Freemium",
+    "Texto",
+    "GPT",
+    "Asistente"
+  ]
+}
