@@ -1,11 +1,9 @@
 {
-  "name": "ChatGPT",
-  "description": "ChatGPT: Optimizando los Modelos de Lenguaje para el Di\u00e1logo. El formato de di\u00e1logo permite a ChatGPT responder preguntas de seguimiento, admitir sus errores, desafiar premisas incorrectas y rechazar solicitudes inapropiadas.",
-  "link": "https://chat.openai.com/chat",
+  "name": "Ai Bert ",
+  "description": "\"\u00a1Un bot de WhatsApp que hace el trabajo por ti!",
+  "link": "https://aibert.co/",
   "props": [
-    "Freemium",
-    "Texto",
-    "GPT",
+    "De Pago",
     "Asistente"
   ]
 }

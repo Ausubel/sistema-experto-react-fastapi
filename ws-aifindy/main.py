@@ -43,7 +43,15 @@ def run():
         properties_list = [tag.get_text() for tag in properties]
         props = {"props": properties_list}
         
-        entry = {**name, **description, **link, **props}
+        try:
+            price = {"price": "Desde " + soup.find('div', class_='notion-property__number').find('span', class_='notion-semantic-string').text}
+        except:
+            if(properties_list[0] == "Gratis"):
+                price = {"price": "$0.00"}
+            else:
+                price = {"price": "No disponible"}
+        
+        entry = {**name, **description, **price, **link, **props}
         entries.append(entry)
     create_json_entries(entries)
 
