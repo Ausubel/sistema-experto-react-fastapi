@@ -1,6 +1,5 @@
 from enum import Enum
 
-
 class Response(Enum):
 
     YES = 1

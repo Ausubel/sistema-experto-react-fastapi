@@ -1,16 +1,16 @@
 from typing import List
-from backend.entities.entry import Entry
+from entities.entry import Entry
 from io import open
 import json
-from utils import singleton
+from utils.singleton_decorator import singleton
 
 
 @singleton
 class KnowledgeBase:
-    def __init__(self):
+    def __init__(self, path: str):
         self.entries: List[Entry] = []
         self.description: str
-        self.read_from_json("../data/knowledge_base.json")
+        self.read_from_json(path)
         
     def read_from_json(self, file_path: str):
         with open(file_path, "r", encoding='utf8') as file:
@@ -32,9 +32,9 @@ class KnowledgeBase:
         for entry in self.entries:
             if entry.is_equal(name):
                 return entry
-        entry = Entry(name)
-        self.entries.append(entry)
-        return entry
+        new_entry = Entry(name)
+        self.entries.append(new_entry)
+        return new_entry
     
     def __str__(self):
         res = f"[{self.description}]"
