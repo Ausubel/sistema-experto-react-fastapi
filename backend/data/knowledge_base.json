@@ -1,0 +1,209 @@
+{
+  "__v": 1,
+  "description": "Herramientas de IA",
+  "entries":[
+    {
+      "name": "ChatGPT",
+      "description": "ChatGPT: Optimizando los Modelos de Lenguaje para el Diálogo. El formato de diálogo permite a ChatGPT responder preguntas de seguimiento, admitir sus errores, desafiar premisas incorrectas y rechazar solicitudes inapropiadas.",
+      "price": "Desde $20.00",
+      "url": "https://chat.openai.com/chat",
+      "props": [
+        "Freemium",
+        "Texto",
+        "GPT",
+        "Asistente"
+      ]
+    },
+    {
+      "name": "DALL-E 2",
+      "description": "DALL·E 2 puede crear imágenes y obras originales y realistas a partir de una descripción de texto. Puede combinar conceptos, atributos y estilos.",
+      "price": "Desde $15.00",
+      "url": "https://openai.com/dall-e-2/",
+      "props": [
+        "Freemium",
+        "Fotos/Arte",
+        "Generador de Imágenes",
+        "Diseño"
+      ]
+    },
+    {
+      "name": "AI Art Apps",
+      "description": "Recursos, herramientas e inspiración de arte de IA para diseñadores y ingenieros de proyectos.",
+      "price": "$0.00",
+      "url": "https://www.aiartapps.com/",
+      "props": [
+        "Gratis",
+        "Recursos",
+        "Investigación",
+        "Fotos/Arte",
+        "Buscador",
+        "Prompts"
+      ]
+    },
+    {
+      "name": "Copymatic",
+      "description": "Genera contenido, copys e imágenes con IA\nUsa la IA para aumentar tu tráfico y ahorrar horas de trabajo. Escribe automáticamente copys o contenido únicos, atractivos y de alta calidad: desde publicaciones de blog de gran formato o páginas de destino hasta anuncios digitales en segundos.",
+      "price": "Desde $29.00",
+      "url": "https://copymatic.ai/?via=aifindy",
+      "props": [
+        "Free Trial",
+        "Marketing",
+        "Texto",
+        "Copywriting",
+        "Genera Ingresos con IA",
+        "Herramientas IA"
+      ]
+    },
+    {
+      "name": "2short.ai",
+      "description": "2short.ai es una herramienta impulsada por IA que ayuda a los creadores de YouTube a maximizar el alcance y hacer crecer su base de suscriptores al extraer los mejores momentos de sus videos largos y convertirlos en atractivos clips cortos.",
+      "price": "No disponible",
+      "url": "https://2short.ai/?ref=aifindy",
+      "props": [
+        "Freemium",
+        "Video",
+        "Redes Sociales",
+        "Asistente",
+        "Marketing",
+        "Audio",
+        "Automatización"
+      ]
+    },
+    {
+      "name": "Synthesia",
+      "description": "Crea videos de IA simplemente escribiendo texto. Fácil de usar, económico y escalable. Crea videos atractivos con presentadores humanos directamente desde tu navegador. Demostración gratuita.",
+      "price": "Desde $26.00",
+      "url": "https://www.synthesia.io/?via=aifindy",
+      "props": [
+        "De Pago",
+        "Video",
+        "Texto a Video",
+        "Avatar",
+        "Texto a Voz",
+        "Redes Sociales",
+        "Marketing",
+        "Habla",
+        "Herramientas IA"
+      ]
+    },
+    {
+      "name": "AI Careers",
+      "description": "Búsqueda de trabajo de IA fácil. Desbloqueando el potencial de los datos para impulsar la innovación.",
+      "price": "$0.00",
+      "url": "https://aicareers.io",
+      "props": [
+        "Gratis",
+        "Gaming",
+        "Recursos",
+        "Buscador"
+      ]
+    },
+    {
+      "name": "RunwayML",
+      "description": "¡El editor de video profesional con Inteligencia Artificial más avanzado del mundo!",
+      "price": "Desde $15.00",
+      "url": "https://runwayml.com/?utm_source=Affiliate&utm_medium=Affiliate&utm_campaign=Maxim",
+      "props": [
+        "Freemium",
+        "Video",
+        "Fotos/Arte",
+        "Audio",
+        "Musica",
+        "Diseño",
+        "3D",
+        "Texo a Imagen",
+        "Video a Subtitulos"
+      ]
+    },
+    {
+      "name": "Contentfries",
+      "description": "Obtén docenas de piezas de contenido con ContentFries. Crea contenido contextual para las próximas semanas o meses, más rápido que nunca antes. También tienen un software creador de subtítulos: subtítulos automáticos para más de 120 idiomas y dialectos.",
+      "price": "Desde $9.00",
+      "url": "https://store.contentfries.com/?campaign=aifindy&ref=193",
+      "props": [
+        "Free Trial",
+        "Video",
+        "Texto",
+        "Video a Subtitulos"
+      ]
+    },
+    {
+      "name": "AdCreative.ai",
+      "description": "Genere creatividades publicitarias centradas en la conversión y creatividades para publicaciones en redes sociales en cuestión de segundos utilizando la Inteligencia Artificial. Obtenga mejores resultados y ahorre tiempo.",
+      "price": "Desde $29.00",
+      "url": "https://free-trial.adcreative.ai/w4bi22zbksl9",
+      "props": [
+        "Free Trial",
+        "Marketing",
+        "Redes Sociales",
+        "Texto",
+        "Copywriting",
+        "Presentaciones",
+        "Influencers",
+        "Diapositivas",
+        "Ventas",
+        "E-Commerce",
+        "Analisis de Datos",
+        "Genera Ingresos con IA",
+        "Genera Ingresos con IA",
+        "Genera Ingresos con IA",
+        "Herramientas IA"
+      ]
+    },
+    {
+      "name": "Humata AI",
+      "description": "Resume documentos largos y aprende más rápido. Convierte documentos técnicos complejos en resúmenes explicados con sencillez. Descubre nuevos conocimientos 100 veces más rápido. Preguntas y respuestas instantáneas. Responde preguntas difíciles relacionadas con su archivo. Obtén respuestas fáciles de entender al instante. Escribe artículos 10 veces más rápido Crea automáticamente nueva escritura basada en su archivo. Genera información detallada para informes, documentos y una variedad de tareas al instante.",
+      "price": "Desde $14.99",
+      "url": "https://www.humata.ai/?via=aifindy",
+      "props": [
+        "Freemium",
+        "Buscador",
+        "Texto",
+        "Copywriting",
+        "Herramientas IA",
+        "Herramientas IA"
+      ]
+    },
+    {
+      "name": "Rytr",
+      "description": "Rytr es un asistente de escritura con inteligencia artificial que te ayuda a crear contenidos de alta calidad, en sólo unos segundos, ¡y por una fracción del coste!",
+      "price": "Desde $9.00",
+      "url": "https://rytr.me/?via=maxim",
+      "props": [
+        "Freemium",
+        "Texto",
+        "SEO",
+        "Redes Sociales",
+        "Copywriting",
+        "Genera Ingresos con IA"
+      ]
+    },
+    {
+      "name": "Eightify",
+      "description": "Resúmenes de IA para YouTube. Convierta cualquier video largo de YouTube en un Resumen con 8 ideas clave. Ahora puede decidir instantáneamente si vale la pena ver el video. ¡Perfecto para 👩‍💼educación empresarial, 🎙podcasts, 📺entrevistas, 📰noticias y 👨🏻‍🏫conferencias!",
+      "price": "No disponible",
+      "url": "https://eightify.app/?via=aifindy",
+      "props": [
+        "Freemium",
+        "Video a Texto",
+        "Productividad",
+        "Video",
+        "Youtube"
+      ]
+    },
+    {
+      "name": "Sheet AI",
+      "description": "Disponible para Google Sheets. Usa AI para transformar rápidamente tus instrucciones de texto en una fórmula de Google Sheets. Tiene casos de uso en la generación de contenido SEO programático, correos electrónicos personalizados y muchos más.",
+      "price": "Desde $8.00",
+      "url": "https://sheetai.app/?via=aifindy",
+      "props": [
+        "Freemium",
+        "Texto",
+        "Asistente",
+        "Data",
+        "Excel",
+        "Productividad"
+      ]
+    }
+  ]
+}
