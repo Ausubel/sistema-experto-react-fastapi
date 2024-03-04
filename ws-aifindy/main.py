@@ -37,13 +37,13 @@ def run():
         
         name = {"name": soup.find('h1', class_='notion-header__title').text}
         description = {"description": soup.find('div', class_='notion-callout').find('span', class_='notion-semantic-string').text}
-        link = {"url": soup.find('a', class_='notion-link link').get('href')}
+        link = {"website_url": soup.find('a', class_='notion-link link').get('href')}
         
         properties = soup.find_all('span', class_='notion-pill')
         properties_list = [tag.get_text() for tag in properties]
         props = {"props": properties_list}
         
-        link_image = {"link_image": str(soup.find('img')).split('src="')[1].split('"')[0]}
+        link_image = {"image_url": str(soup.find('img')).split('src="')[1].split('"')[0]}
 
         
         try:
