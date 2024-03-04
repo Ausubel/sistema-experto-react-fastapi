@@ -1,9 +1,13 @@
 {
-  "name": "Ai Bert ",
-  "description": "\"\u00a1Un bot de WhatsApp que hace el trabajo por ti!",
-  "link": "https://aibert.co/",
+  "name": "ChatGPT",
+  "description": "ChatGPT: Optimizando los Modelos de Lenguaje para el Di\u00e1logo. El formato de di\u00e1logo permite a ChatGPT responder preguntas de seguimiento, admitir sus errores, desafiar premisas incorrectas y rechazar solicitudes inapropiadas.",
+  "link": "https://chat.openai.com/chat",
+  "price": "Desde $20.00",
+  "link_image": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/5b40bba5-4f6f-48a1-abf7-fede16547fc2/Captura_de_pantalla_2023-01-14_a_las_3.58.29/w=3840,quality=80,fit=scale-down",
   "props": [
-    "De Pago",
+    "Freemium",
+    "Texto",
+    "GPT",
     "Asistente"
   ]
 }

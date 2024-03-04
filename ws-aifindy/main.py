@@ -43,6 +43,9 @@ def run():
         properties_list = [tag.get_text() for tag in properties]
         props = {"props": properties_list}
         
+        link_image = {"link_image": str(soup.find('img')).split('src="')[1].split('"')[0]}
+
+        
         try:
             price = {"price": "Desde " + soup.find('div', class_='notion-property__number').find('span', class_='notion-semantic-string').text}
         except:
@@ -51,7 +54,7 @@ def run():
             else:
                 price = {"price": "No disponible"}
         
-        entry = {**name, **description, **price, **link, **props}
+        entry = {**name, **description, **price, **link, **link_image, **props}
         entries.append(entry)
     create_json_entries(entries)
 
