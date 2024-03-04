@@ -6,7 +6,8 @@ from entities.response import Response
 
 class InferenceEngine:
     def __init__(self, path: str):
-        self.knowledge_base = KnowledgeBase(path)
+        self.path = path
+        self.knowledge_base = KnowledgeBase(self.path)
         self.accepted_properties: List[Response] = []
         self.rejected_properties: List[Response] = []
         self.response: Response = Response.YES
@@ -61,3 +62,10 @@ class InferenceEngine:
             if prop in entry.properties:
                 return False
         return True
+    
+    def reset(self):
+        self.accepted_properties = []
+        self.rejected_properties = []
+        self.response = Response.YES
+        self.result = None
+        self.knowledge_base = KnowledgeBase(self.path)
