@@ -19,11 +19,14 @@ class InferenceEngine:
         self.result = None
         for entry in self.knowledge_base.entries:
             correct_entry = True
-            if not self._check_rule_2(entry) and not self._check_rule_3(entry):
+            if not self._has_all_required_properties(entry):
+                continue
+            if not self._has_no_excluded_properties(entry):
                 continue
             for prop in entry.properties:
-                if not self._check_rule_1(prop):
+                if self._is_property_asked(prop):
                     continue
+                
                 yield prop
                 
                 if self.response == Response.YES:
@@ -32,8 +35,14 @@ class InferenceEngine:
                     self.rejected_properties.append(prop)
                     correct_entry = False
                     break
+                
+                
             if correct_entry:
                 self.result = entry
+                for prop in self.accepted_properties:
+                    print(f"Accepted: {prop.name}")
+                for prop in self.rejected_properties:
+                    print(f"Rejected: {prop.name}")
                 yield None
         yield None
                 
@@ -44,23 +53,29 @@ class InferenceEngine:
     def get_response(self) -> Response:
         return self.response
 
-    def _check_rule_1(self, prop: Property) -> bool:
+    def _is_property_asked(self, prop: Property) -> bool:
+        return prop in (self.accepted_properties + self.rejected_properties)
 
-        return (prop not in self.accepted_properties and
-                prop not in self.rejected_properties)
-
-    def _check_rule_2(self, entry: Entry) -> bool:
-
+    def _has_all_required_properties(self, entry: Entry) -> bool:
         for prop in self.accepted_properties:
             if prop not in entry.properties:
                 return False
+        print("All required properties are present")
+        for prop in entry.properties:
+            print(f"Entry has: {prop.name}")
+        for prop in self.accepted_properties:
+            print(f"Required: {prop.name}")
         return True
 
-    def _check_rule_3(self, entry: Entry) -> bool:
 
+    def _has_no_excluded_properties(self, entry: Entry) -> bool:
+        print("Checking for excluded properties")
         for prop in self.rejected_properties:
+            print(f"Excluded: {prop.name}")
             if prop in entry.properties:
+                print(f"Excluded property {prop.name} is present")
                 return False
+        print("No excluded properties are present")
         return True
     
     def reset(self):
