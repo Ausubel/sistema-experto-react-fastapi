@@ -1,9 +1,9 @@
-from service.inference_engine import InferenceEngine
+from service.engine import Inference
 
 class ApiServices():
-    def __init__(self, inference_engine: InferenceEngine):
-        self.inference_engine: InferenceEngine = inference_engine
-        self.questions = self.inference_engine.process()
+    def __init__(self, engine: Inference):
+        self.engine: Inference = engine
+        self.questions = self.engine.process()
         self.canAsk = True
     
     def get_question_service(self):
@@ -21,10 +21,10 @@ class ApiServices():
     
     def _finished(self):
         self.canAsk = False
-        if self.inference_engine.result is None:
+        if self.engine.result is None:
             return {"Error": "No result found"}
-        return self.inference_engine.result
+        return self.engine.result
     def reset(self):
-        self.inference_engine.reset()
-        self.questions = self.inference_engine.process()
+        self.engine.reset()
+        self.questions = self.engine.process()
         self.canAsk = True
