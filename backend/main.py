@@ -19,16 +19,21 @@ api_services = ApiServices(inference_engine)
 
 @app.post("/response/{response_value}")
 def get_question(response_value: int):
-    allowed_responses = {Response.YES.value, Response.NO.value, Response.AGAIN.value}
+    allowed_responses = {Response.YES.value, Response.NO.value}
     
     if response_value not in allowed_responses:
         raise HTTPException(status_code=400, detail="Invalid response. Input should be 0 or 2")
 
-    if response_value == Response.AGAIN.value:
-        api_services.reset()
-        return HTTPException(status_code=200, detail="Session reset")
     try:
         inference_engine.set_response(Response(response_value))
+        return HTTPException(status_code=200, detail=api_services.get_question_service())
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+    
+@app.get("/start")
+def start_session():
+    try:
+        api_services.reset()
         return HTTPException(status_code=200, detail=api_services.get_question_service())
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))

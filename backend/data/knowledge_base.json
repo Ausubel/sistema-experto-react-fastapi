@@ -4,10 +4,10 @@
   "entries":[
     {
       "name": "Shimoku",
-      "description": "Tabla de contenidos:",
+      "description": "En Shimoku, transforman negocios con Inteligencia Artificial adaptada a cada empresa, impulsando líderes del mercado sin necesidad de nuevas contrataciones de personal o riesgos.",
       "price": "No disponible",
       "website_url": "https://www.shimoku.com",
-      "image_url": "/_next/image?url=https%3A%2F%2Fassets.super.so%2F947853f7-b4b1-4605-b762-a90b1ef18b5d%2Fimages%2F6ad2716e-e783-419d-bfcf-20fc35864ab2%2FCaptura_de_pantalla_2024-02-27_a_las_5.52.03_p._m..png&amp;w=3840&amp;q=80",
+      "image_url": "https://docs.shimoku.com/~gitbook/image?url=https://3782181538-files.gitbook.io/%7E/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%252FUlHTfmIZY46Z1EDfyGMz%252Fuploads%252Fm73NmFpPLHEIWCDO9i4A%252FCaptura%2520de%2520Pantalla%25202023-05-16%2520a%2520las%252016.53.13.png%3Falt=media%26token=8750b62d-feb0-4c56-9617-cc44cb2410af&width=400&dpr=2&quality=100&sign=9f3b65e8713cec5e5af568a409673b07d683d799d356847f700291e7a70c6ad5",
       "props": [
         "Asistente",
         "API",
@@ -71,7 +71,7 @@
       "description": "2short.ai es una herramienta impulsada por IA que ayuda a los creadores de YouTube a maximizar el alcance y hacer crecer su base de suscriptores al extraer los mejores momentos de sus videos largos y convertirlos en atractivos clips cortos.",
       "price": "No disponible",
       "website_url": "https://2short.ai/?ref=aifindy",
-      "image_url": "/_next/image?url=https%3A%2F%2Fassets.super.so%2F947853f7-b4b1-4605-b762-a90b1ef18b5d%2Fimages%2Fd126e5bd-e4b3-46c0-8fd2-3a11e86ae0e6%2F2short.ai_-_AI_YouTube_Shorts_generator_-_Google_Chrome_23_03_2023_08_09_01_p._m..png&amp;w=3840&amp;q=80",
+      "image_url": "https://2short.ai/images/showcase/desktop-light.png",
       "props": [
         "Asistente",
         "Audio",
@@ -159,7 +159,7 @@
       "description": "Addy es una I.A. asistente de correo electrónico que redacta sus correos electrónicos en segundos, con su estilo y tono preferidos. Addy AI te permite elegir entre una variedad de tonos. Personaliza tus correos electrónicos para satisfacer tus necesidades.",
       "price": "No disponible",
       "website_url": "https://addy-ai.com/",
-      "image_url": "/_next/image?url=https%3A%2F%2Fassets.super.so%2F947853f7-b4b1-4605-b762-a90b1ef18b5d%2Fimages%2F698c659b-2590-466f-9352-51c7cb8f9bab%2F88stacks_-_Google_Chrome_23_03_2023_08_34_52_p._m..png&amp;w=3840&amp;q=80",
+      "image_url": "https://i.ibb.co/QQ1HSG4/Screenshot-2024-03-05-231211.png",
       "props": [
         "Asistente",
         "Email",
@@ -229,7 +229,7 @@
       "description": "\"¡Un bot de WhatsApp que hace el trabajo por ti!",
       "price": "No disponible",
       "website_url": "https://aibert.co/",
-      "image_url": "/_next/image?url=https%3A%2F%2Fassets.super.so%2F947853f7-b4b1-4605-b762-a90b1ef18b5d%2Fimages%2F29e4397e-5668-46e5-9267-6159272cca4a%2FAiBERT_-_The_Genius_WhatsApp_Bot_for_ChatGPT_and_Midjourney_-_Google_Chrome_31_03_2023_06_54_07_p._m..png&amp;w=3840&amp;q=80",
+      "image_url": "https://i.ibb.co/CKQFHDN/Screenshot-2024-03-05-231309.png",
       "props": [
         "Asistente",
         "De Pago"
@@ -531,7 +531,7 @@
       "description": "AiCogni es una aplicación avanzada de chatbot y asistente de escritura con IA que funciona con la tecnología ChatGPT. Su interfaz simple e intuitiva, así como su soporte para interacción por voz y WearOS, lo hacen accesible y fácil de usar. AiCogni puede comprender varios idiomas y ayudar con diversas tareas, como responder preguntas, generar ideas y mejorar la calidad de la escritura.",
       "price": "No disponible",
       "website_url": "https://aicogni.com/",
-      "image_url": "/_next/image?url=https%3A%2F%2Fassets.super.so%2F947853f7-b4b1-4605-b762-a90b1ef18b5d%2Fimages%2F57ed3b32-6a36-4ee3-8b52-fc331178bf3c%2FAiBERT_-_The_Genius_WhatsApp_Bot_for_ChatGPT_and_Midjourney_-_Google_Chrome_31_03_2023_07_02_08_p._m..png&amp;w=3840&amp;q=80",
+      "image_url": "https://i.ibb.co/KLdQpGS/image.png",
       "props": [
         "Asistente",
         "Freemium",
@@ -675,7 +675,7 @@
       "description": "AlphaResearch proporciona un motor de búsqueda impulsado por IA sin igual para todo tipo de texto. Analizamos millones de presentaciones, transcripciones, comunicados de prensa e informes globales para encontrar la información exacta que está buscando. Aplicamos técnicas de Machine learning y NLP para extraer insights de textos y datos fundamentales tradicionales para ahorrarte cientos de horas de investigación y entender lo que piensan los ejecutivos y el mercado sobre el futuro de la empresa.",
       "price": "No disponible",
       "website_url": "https://alpharesearch.io/",
-      "image_url": "/_next/image?url=https%3A%2F%2Fassets.super.so%2F947853f7-b4b1-4605-b762-a90b1ef18b5d%2Fimages%2Fd966a82c-b870-44db-9b0d-8545209296a3%2FAIPRM_for_ChatGPT_-_Chrome_Web_Store_-_Google_Chrome_31_03_2023_07_14_02_p._m..png&amp;w=3840&amp;q=80",
+      "image_url": "https://i.ibb.co/vxBBYYC/image.png",
       "props": [
         "Buscador",
         "Finanzas",
@@ -930,7 +930,7 @@
       "description": "Conoce a Poppy, tu mejor amiga que en realidad te envía mensajes de texto. Poppy te encuentra donde estás. Ya sea que esté pensando, intentándolo, embarazada o en el posparto, ella es la amiga que necesita, cuando la necesita.",
       "price": "No disponible",
       "website_url": "https://www.poppylist.com/askpoppy",
-      "image_url": "/_next/image?url=https%3A%2F%2Fassets.super.so%2F947853f7-b4b1-4605-b762-a90b1ef18b5d%2Fimages%2F64d7b39e-97a5-48aa-9779-81214b660364%2Ftraductor_-_Buscar_con_Google_-_Google_Chrome_31_03_2023_08_06_34_p._m..png&amp;w=3840&amp;q=80",
+      "image_url": "https://i.ibb.co/tCNcFmL/image.png",
       "props": [
         "Asistente",
         "Free Trial",
@@ -1483,7 +1483,7 @@
       "description": "Celebrity Voice Changer AI es una aplicación que cambia su voz a la voz de la celebridad que desea o usa su texto para crear discursos usando tecnología AI. ¡Nuestra tecnología de inteligencia artificial cambiará su voz por la celebridad de su elección de la manera más realista posible!",
       "price": "No disponible",
       "website_url": "https://celebvoice.my.canva.site/",
-      "image_url": "/_next/image?url=https%3A%2F%2Fassets.super.so%2F947853f7-b4b1-4605-b762-a90b1ef18b5d%2Fimages%2Fe85c490b-4584-4c88-b068-06534a512932%2FCelebrity_Voice_Changer_App_-_Google_Chrome_02_04_2023_08_01_36_p._m..png&amp;w=3840&amp;q=80",
+      "image_url": "https://i.ibb.co/4phgjkn/image.png",
       "props": [
         "Divertido",
         "Free Trial",
@@ -1642,8 +1642,8 @@
       "name": "ChatWP",
       "description": "Chatbot de IA que brinda respuestas directas a sus preguntas de WordPress, capacitado en toda la documentación oficial de WordPress. Construyeron un rastreador web para extraer toda la documentación oficial del sitio web de WordPress.org. Esto incluye los tutoriales y planes de lecciones de \"Aprender WordPress\", todos los artículos en las páginas de \"Documentación\" (wordpress.org/documentation/) y todo el sitio de \"Desarrollador\" (developer.wordpress.org) con referencias de códigos, manuales y comandos También se permite usar conocimientos generales sobre WordPress aprendidos de Internet con restricciones.",
       "price": "No disponible",
-      "website_url": "http://wordpress.org/",
-      "image_url": "/_next/image?url=https%3A%2F%2Fassets.super.so%2F947853f7-b4b1-4605-b762-a90b1ef18b5d%2Fimages%2F388f40ec-27f0-4b96-941d-52ce14c9141d%2FStunning_-_Google_Chrome_02_04_2023_09_01_09_p._m..png&amp;w=3840&amp;q=80",
+      "website_url": "https://wpdocs.chat/",
+      "image_url": "https://i.ibb.co/vhDQYXh/image.png",
       "props": [
         "Lista de Espera",
         "Productividad"
@@ -1679,8 +1679,8 @@
       "name": "ChessGPT",
       "description": "La herramienta ChessGPTPlay permite a los usuarios competir contra el poderoso ChatGPT en un juego de ajedrez. Los jugadores pueden arrastrar piezas para hacer sus movimientos, mientras que ChatGPT responderá con los suyos.",
       "price": "No disponible",
-      "website_url": "https://chessgpt.gducrash.com/",
-      "image_url": "/_next/image?url=https%3A%2F%2Fassets.super.so%2F947853f7-b4b1-4605-b762-a90b1ef18b5d%2Fimages%2F5e50399b-94ee-429d-9a84-2840096e4b84%2FFiverr_-_Notion_-_Hojas_de_clculo_de_Google_-_Google_Chrome_02_04_2023_09_05_26_p._m..png&amp;w=3840&amp;q=80",
+      "website_url": "https://chessgpt.ai/",
+      "image_url": "https://i.ibb.co/PxQdPNn/image.png",
       "props": [
         "Divertido",
         "Gratis"
@@ -1691,7 +1691,7 @@
       "description": "Circleback transcribes your meetings and crafts notes and follow-up emails that’ll blow you away. Our natural language search lets you ask questions about past meetings like “what is Chris’s biggest problem with their current sales process?”, the same way you’d ask ChatGPT.",
       "price": "No disponible",
       "website_url": "https://www.circleback.ai",
-      "image_url": "/_next/image?url=https%3A%2F%2Fassets.super.so%2F947853f7-b4b1-4605-b762-a90b1ef18b5d%2Fimages%2Fc6d33ab5-0fd5-43b4-9151-e374ca41e596%2FChessGPT_-_Google_Chrome_02_04_2023_09_07_10_p._m..png&amp;w=3840&amp;q=80",
+      "image_url": "https://i.ibb.co/8drC1V2/image.png",
       "props": [
         "Free Trial",
         "Productividad",
@@ -4693,7 +4693,7 @@
       "description": "Xata es una plataforma de datos sin servidor que simplifica la forma en que los desarrolladores trabajan con los datos. Cuenta con una interfaz de usuario similar a una hoja de cálculo que facilita la revisión y edición de datos, una simple llamada API para responder preguntas utilizando datos como contexto y la capacidad de ajustar la experiencia de búsqueda configurando pesos de columna y potenciadores de valor. También tiene un generoso nivel gratuito con hasta 750 000 registros y 15 GB gratuitos, con llamadas a la API de OpenAI incluidas.",
       "price": "No disponible",
       "website_url": "https://xata.io/chatgpt",
-      "image_url": "/_next/image?url=https%3A%2F%2Fassets.super.so%2F947853f7-b4b1-4605-b762-a90b1ef18b5d%2Fimages%2Fb81be234-9c06-4acc-aedb-91cca1d3e846%2FSin_ttulo_-_Google_Chrome_09_04_2023_07_02_39_p._m..png&amp;w=3840&amp;q=80",
+      "image_url": "https://i.ibb.co/jRskhb6/image.png",
       "props": [
         "Desarrollo",
         "Freemium",
