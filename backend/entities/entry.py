@@ -13,8 +13,9 @@ class Entry():
         self.description = ""
         self.properties = []
         self.price = ""
-        self.url = ""
-    
+        self.website_url = ""
+        self.image_url = ""
+        
     def get_or_add_prop(self, name: str) -> Property:
         for prop in self.properties:
             if prop.is_equal(name):

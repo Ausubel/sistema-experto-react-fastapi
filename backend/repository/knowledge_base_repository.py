@@ -23,6 +23,9 @@ class KnowledgeBase:
         for json_entry in json_data["entries"]:
             entry: Entry = self.get_or_add_entry(str(json_entry["name"]))
             entry.description = str(json_entry["description"])
+            entry.price = str(json_entry["price"])
+            entry.website_url = str(json_entry["website_url"])
+            entry.image_url = str(json_entry["image_url"])
             for json_prop in json_entry["props"]:
                 entry.get_or_add_prop(str(json_prop))
         return self
