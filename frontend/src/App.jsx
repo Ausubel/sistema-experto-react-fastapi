@@ -1,35 +1,36 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-
+import { useState } from "react";
+import Test from "./components/test";
+import "./fondo.css";
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+      <div className="main">
+        <Test></Test>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
+
+      <div className="fondo">
+        <div className="rain rain1"></div>
+        <div className="rain rain2">
+          <div className="drop drop2"></div>
+        </div>
+        <div className="rain rain3"></div>
+        <div className="rain rain4"></div>
+        <div className="rain rain5">
+          <div className="drop drop5"></div>
+        </div>
+        <div className="rain rain6"></div>
+        <div className="rain rain7"></div>
+        <div className="rain rain8">
+          <div className="drop drop8"></div>
+        </div>
+        <div className="rain rain9"></div>
+        <div className="rain rain10"></div>
+        <div className="drop drop11"></div>
+        <div className="drop drop12"></div>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      
     </>
-  )
+  );
 }
 
-export default App
+export default App;
