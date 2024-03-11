@@ -1,8 +1,8 @@
-from service.engine import Inference
+from service.engine import Engine
 
 class ApiServices():
-    def __init__(self, engine: Inference):
-        self.engine: Inference = engine
+    def __init__(self, engine: Engine):
+        self.engine: Engine = engine
         self.questions = self.engine.process()
         self.canAsk = True
     

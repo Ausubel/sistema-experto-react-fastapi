@@ -1,11 +1,11 @@
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
-from service.engine import Inference
+from service.engine import Engine
 from service.api_services import ApiServices
 from entities.response import Response
 
 app = FastAPI()
-
+app = FastAPI(title="SE - AIFindy", version="1.0", description="Sistema experto en recomendacion de herramientas de inteligencia artificial en base a la web AIFindy.")
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -13,7 +13,7 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
-engine = Inference("./data/knowledge_base.json")
+engine = Engine("./data/knowledge_base.json")
 
 api_services = ApiServices(engine)
 
