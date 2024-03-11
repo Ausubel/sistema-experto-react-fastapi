@@ -4,7 +4,7 @@ from entities.entry import Entry
 from entities.property import Property
 from entities.response import Response
 
-class InferenceEngine:
+class Engine:
     def __init__(self, path: str):
         self.path = path
         self.knowledge_base = KnowledgeBase(self.path)

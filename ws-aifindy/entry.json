@@ -1,13 +1,13 @@
 {
   "name": "AIFindy",
-  "description": "AIFindy es una plataforma que facilita la bÃºsqueda de herramientas de Inteligencia Artificial. Ofrece una base de datos con herramientas IA ordenadas por precio y categorÃ­a para que el usuario encuentre la que mejor se adapte a sus necesidades. La base de datos se actualiza todos los dÃ­as para ofrecer informaciÃ³n actualizada. AdemÃ¡s, AIFindy ofrece recursos especializados que ayudan a los usuarios a tomar decisiones informadas al momento de seleccionar herramientas de IA.",
+  "description": "AIFindy es una plataforma que facilita la búsqueda de herramientas de Inteligencia Artificial. Ofrece una base de datos con herramientas IA ordenadas por precio y categoría para que el usuario encuentre la que mejor se adapte a sus necesidades. La base de datos se actualiza todos los días para ofrecer información actualizada. Además, AIFindy ofrece recursos especializados que ayudan a los usuarios a tomar decisiones informadas al momento de seleccionar herramientas de IA.",
   "link": "/",
   "price": "$0.00",
   "link_image": "https://images.spr.so/cdn-cgi/imagedelivery/j42No7y-dcokJuNgXeA0ig/272b6229-aa8c-4016-b52a-7614fe4d3696/Captura_de_pantalla_2023-01-20_a_las_22.20.46/w=3840,quality=80,fit=scale-down",
   "props": [
     "Gratis",
     "Buscador",
-    "Investigaci\u00f3n",
+    "Investigación",
     "Marketing",
     "Recursos"
   ]
