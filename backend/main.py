@@ -13,7 +13,7 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
-engine = Engine("./data/knowledge_base.json")
+engine = Engine("./data/knowledge_base_full_stack_web.json")
 
 api_services = ApiServices(engine)
 

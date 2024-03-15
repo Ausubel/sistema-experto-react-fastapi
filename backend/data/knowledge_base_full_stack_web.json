@@ -1,0 +1,181 @@
+{
+  "description": "Tacnologias Full Stack Web",
+  "entries":[
+    {
+      "name": "ReactJS",
+      "description": "Librería de JavaScript para construir interfaces de usuario",
+      "price": "Free",
+      "website_url": "https://reactjs.org/",
+      "image_url": "https://reactjs.org/logo-og.png",
+      "props": [
+        "Frontend",
+        "Flexibilidad",
+        "Comunidad activa",
+        "virtual DOM"
+      ]
+    },
+    {
+      "name": "VueJS",
+      "description": "Framework de JavaScript para construir interfaces de usuario",
+      "price": "Free",
+      "website_url": "https://vuejs.org/",
+      "image_url": "https://vuejs.org/images/logo.png",
+      "props": [
+        "Frontend",
+        "Integración con otros proyectos",
+        "Documentación clara",
+        "Facilidad de uso"
+      ]
+    },
+    {
+      "name": "Angular",
+      "description": "Framework de JavaScript para construir aplicaciones web",
+      "price": "Free",
+      "website_url": "https://angular.io/",
+      "image_url": "https://angular.io/assets/images/logos/angular/angular.png",
+      "props": [
+        "Frontend",
+        "Plataforma completa",
+        "Soporte de Google",
+        "Capa de seguridad adicional"
+      ]
+    },
+    {
+      "name": "Sass",
+      "description": "Preprocesador CSS con características avanzadas",
+      "price": "Free",
+      "website_url": "https://sass-lang.com/",
+      "image_url": "https://sass-lang.com/assets/img/logos/logo.svg",
+      "props": [
+        "Preprocesador CSS",
+        "Modularidad",
+        "Reutilización de código",
+        "Funciones avanzadas",
+        "Bucles"
+      ]
+    },
+    {
+      "name": "Less",
+      "description": "Preprocesador CSS con enfoque simplificado y sintaxis intuitiva",
+      "price": "Free",
+      "website_url": "http://lesscss.org/",
+      "image_url": "http://lesscss.org/public/img/less_logo.png",
+      "props": [
+        "Preprocesador CSS",
+        "Simplicidad",
+        "Sintaxis intuitiva",
+        "Fácil de aprender",
+        "Apropiado para principiantes"
+      ]
+    },
+    {
+      "name": "Stylus",
+      "description": "Preprocesador CSS con sintaxis minimalista y flexible",
+      "price": "Free",
+      "website_url": "http://stylus-lang.com/",
+      "image_url": "https://stylus-lang.com/logo.svg",
+      "props": [
+        "Sintaxis minimalista",
+        "Flexibilidad",
+        "Concisión",
+        "Expresividad"
+      ]
+    },
+    {
+      "name": "Node.js",
+      "description": "Entorno de ejecución de JavaScript para el lado del servidor",
+      "price": "Free",
+      "website_url": "https://nodejs.org/",
+      "image_url": "https://logospng.org/download/node-js/logo-node-js-1024.png",
+      "props": [
+        "Backend",
+        "Flexibilidad",
+        "Escalabilidad",
+        "Alta concurrencia"
+      ]
+    },
+    {
+      "name": "Django",
+      "description": "Framework de desarrollo web de alto nivel en Python",
+      "price": "Free",
+      "website_url": "https://www.djangoproject.com/",
+      "image_url": "https://www.djangoproject.com/m/img/logos/django-logo-negative.png",
+      "props": [
+        "Backend",
+        "Productividad",
+        "Seguridad",
+        "Marco de trabajo completo",
+        "Características listas para usar"
+      ]
+    },
+    {
+      "name": "Spring Boot",
+      "description": "Framework de desarrollo de aplicaciones en Java",
+      "price": "Free",
+      "website_url": "https://spring.io/projects/spring-boot",
+      "image_url": "https://4.bp.blogspot.com/-TevOgPVC2dE/WnILAnucRVI/AAAAAAAAGU4/Y0eg10SP5f4niLZAKex2EeRDvJkGfP7vgCPcBGAYYCw/s1600/spring-boot.png",
+      "props": [
+        "Backend",
+        "Robustez",
+        "Escalabilidad",
+        "Confiabilidad",
+        "Rendimiento"
+      ]
+    },
+    {
+      "name": "MySQL",
+      "description": "Base de datos SQL conocida por su confiabilidad y facilidad de uso en entornos web",
+      "price": "Free",
+      "website_url": "https://www.mysql.com/",
+      "image_url": "https://www.mysql.com/common/logos/logo-mysql-170x115.png",
+      "props": [
+        "Base de datos",
+        "SQL",
+        "Amplia compatibilidad con diferentes sistemas operativos",
+        "Confiabilidad",
+        "Facilidad de uso"
+      ]
+    },
+    {
+      "name": "PostgreSQL",
+      "description": "Base de datos SQL reconocida por su capacidad para manejar cargas de trabajo complejas",
+      "price": "Free",
+      "website_url": "https://www.postgresql.org/",
+      "image_url": "https://www.postgresql.org/media/img/about/press/elephant.png",
+      "props": [
+        "Base de datos",
+        "SQL",
+        "Capacidad para manejar cargas complejas",
+        "Soporte para tipos de datos avanzados",
+        "Transacciones ACID completas"
+      ]
+    },
+    {
+      "name": "MongoDB",
+      "description": "Base de datos NoSQL que ofrece flexibilidad en el esquema de datos",
+      "price": "Free",
+      "website_url": "https://www.mongodb.com/",
+      "image_url": "https://webassets.mongodb.com/_com_assets/cms/mongodb_logo1-76twgcu2dm.png",
+      "props": [
+        "Base de datos",
+        "NoSQL",
+        "Flexibilidad en el esquema de datos",
+        "Escalabilidad",
+        "Rendimiento"
+      ]
+    },
+    {
+      "name": "Firebase Realtime Database",
+      "description": "Base de datos en tiempo real ideal para aplicaciones web y móviles, permite la sincronización de datos en tiempo real entre clientes y servidores",
+      "price": "Free",
+      "website_url": "https://firebase.google.com/products/realtime-database",
+      "image_url": "https://firebase.google.com/downloads/brand-guidelines/PNG/logo-vertical.png",
+      "props": [
+        "Base de datos",
+        "NoSQL",
+        "Sincronización en tiempo real",
+        "Ideal para aplicaciones web y móviles"
+      ]
+    }
+  ]
+}
