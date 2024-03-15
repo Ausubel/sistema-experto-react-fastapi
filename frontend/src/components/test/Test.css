@@ -1,8 +1,6 @@
 .formulario {
   display: flex;
   flex-direction: column;
-  max-height: 30rem;
-  overflow: auto; /* Cambiado de "hidden" a "auto" o "scroll" */
   gap: 2rem;
   width: 40rem;
   padding: 2rem;
@@ -27,7 +25,8 @@
   background: transparent;
 }
 ::-webkit-scrollbar-track-piece {
-  background: transparent; width: 0;
+  background: transparent;
+  width: 0;
 }
 ::-webkit-scrollbar-thumb {
   background: rgb(56, 4, 55);

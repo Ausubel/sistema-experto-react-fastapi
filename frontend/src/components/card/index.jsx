@@ -18,25 +18,17 @@ const Card = ({ item, setDataForm }) => {
     <>
       <div className="card">
         <div className="card__content">
-          {item.detail.description || item.detail.Error ? (
+          {item.description || item.Error ? (
             <>
-              <p>{item.detail.name}</p>
-              <p>
-                {item.detail.description
-                  ? item.detail.description
-                  : item.detail.Error}
-              </p>
-              {item.detail.description ? (
-                <img src={item.detail.image_url} alt="" />
-              ) : (
-                ""
-              )}
+              <h2>{item.name}</h2>
+              <p>{item.description ? item.description : item.Error}</p>
+              {item.description ? <img src={item.image_url} alt="" /> : ""}
             </>
           ) : (
             <>
               {" "}
               <h2>Pregunta</h2>
-              <p>¿{item.detail.name}?</p>
+              <p>¿{item.name}?</p>
               <div className="cuadroCheck">
                 <label>
                   <div className="col-md-6 reject-checkbox">
